@@ -29,14 +29,19 @@ This portfolio highlights:
 - ** Nexify
 ---
 
-<img width="1512" alt="Screenshot 2025-06-05 at 7 19 43 PM" src="https://github.com/user-attachments/assets/a421ae5c-1fff-4106-b464-cb26ccfba2e5" />
+<img width="1512" alt="Screenshot 2025-06-05 at 7 23 43 PM" src="https://github.com/user-attachments/assets/283d26ed-508a-4dde-a778-e4f82bae0fbd" />
 
-<img width="1512" alt="Screenshot 2025-06-05 at 7 19 52 PM" src="https://github.com/user-attachments/assets/34c36714-f1b8-4752-8551-8ccb35a5707b" />
+<img width="1512" alt="Screenshot 2025-06-05 at 7 24 11 PM" src="https://github.com/user-attachments/assets/459026d6-1e67-45b6-b76e-829bbbb94d88" />
 
-
-<img width="1512" alt="Screenshot 2025-06-05 at 7 19 58 PM" src="https://github.com/user-attachments/assets/4a15ebcd-cfbb-4de4-abd8-492d36c7f922" />
-
+<img width="1512" alt="Screenshot 2025-06-05 at 7 24 22 PM" src="https://github.com/user-attachments/assets/f5ab99c0-229d-47de-96d6-9a4d4c1af819" />
 
 
-<img width="1512" alt="Screenshot 2025-06-05 at 7 20 03 PM" src="https://github.com/user-attachments/assets/b159c983-412c-4ceb-a8bf-24b84f088783" />
+<img width="1512" alt="Screenshot 2025-06-05 at 7 24 30 PM" src="https://github.com/user-attachments/assets/b39c1b72-4c3a-4142-8b67-796d3fa8121e" />
+
+<img width="1512" alt="Screenshot 2025-06-05 at 7 24 37 PM" src="https://github.com/user-attachments/assets/242daea3-4787-4c88-b91e-b5ce48ab5388" />
+
+
+
+
+
 
