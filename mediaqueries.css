@@ -27,6 +27,15 @@
   position: absolute;
 }
 
+.company-logos-container {
+  gap: 1rem;
+}
+
+.company-logo {
+  width: 120px;
+  height: 120px;
+}
+
 }
 
 
@@ -61,6 +70,16 @@
       width: 275px;
       height: 275px;
       margin: 0 auto 2rem;
+    }
+    .company-logos-container {
+      gap: 1rem;
+      width: 100%;
+      max-width: 275px;
+    }
+    .company-logo {
+      width: 100px;
+      height: 100px;
+      max-width: 120px;
     }
     .about-containers{
       margin-top: 0;
