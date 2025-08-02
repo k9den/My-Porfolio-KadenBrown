@@ -201,5 +201,16 @@
     min-width: 90%; 
   }
   
+  .company-logos-container {
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    
+  }
+  
+  .company-logo {
+    width: 120px;
+    height: 120px;
+  }
   
 }
