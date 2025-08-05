@@ -511,64 +511,118 @@ article.icon {
 /* projects section */
 
 #projects {
-  position: relative;
-}
-
-/* #projects .experience-details-container {
-  display: flex;
-  justify-content: center;
-}
-
-.project3pic{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 1rem;
+  background-color: var(--background-light);
 }
 
 #projects .about-containers {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  flex-wrap: wrap;
-} */
-
-.color-container{
-  border-color: rgb(163,163,163);
-  background: rgb(250,250,250);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+.color-container {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  border: var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  padding: 1.5rem;
+  transition: var(--transition);
+  min-width: 280px;
+  max-width: 450px;
+  flex: 1;
+}
 
+.color-container:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-color);
+}
 
-.details-container.color-container .article-container {
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+  border: var(--glass-border);
+  min-width: 250px;
+  max-width: 400px;
+}
+
+.project-title {
+  margin: 1rem 0;
+  color: var(--text-dark);
+  font-size: 1.5rem;
+}
+
+.project-btn {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+}
+
+#projects .btn-container {
   display: flex;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
-}
-
-.project-img{
-  border-radius: 0.5rem;
-  width: 90%;   
-  height:90%;
-}
-
-
-
-.project-title{
-  margin: 1rem;
-  color: black;
-  text-align: center;
-}
-
-.project-btn{
-  color:black;
-  border-color:rgb(163,163,163);
+  flex-wrap: wrap;
+  padding-right: 2.15rem;
 }
 
 /* education section */
 
 .edu-space {
   margin-bottom: 1rem;
+}
+
+/* organizations section */
+
+.organization-logos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.organization-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: var(--border-radius);
+  border: var(--glass-border);
+  padding: 1rem;
+  background: var(--card-bg);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.organization-logo:hover {
+  transform: scale(1.05);
+  border-color: var(--primary-color);
+}
+
+.organization-item-compact {
+  text-align: center;
+}
+
+.organization-item-compact h4 {
+  color: var(--text-dark);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.organization-item-compact .role {
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.organization-item-compact .duration {
+  color: var(--text-light);
+  font-size: 0.9rem;
 }
 
 /* contact section */
