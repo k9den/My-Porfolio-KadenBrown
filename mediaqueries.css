@@ -70,11 +70,7 @@
     display: block;
   }
   .arrow {
-    display: inline !important;
-    position: absolute;
-    right: 1rem;
-    bottom: 0.5rem;
-    z-index: 1000;
+    display: none !important;
   }
   section, 
   .section-container {
@@ -154,6 +150,9 @@
 @media screen and (max-width: 600px) {
   #hamburger-nav {
     display: flex !important;
+  }
+  .arrow {
+    display: none !important;
   }
   #contact,footer{
     height: 40vh;
@@ -348,13 +347,7 @@
   }
 
   .arrow {
-    right: 1rem;
-    bottom: 0.5rem;
-    width: 2.5rem;
-    height: 2.5rem;
-    position: absolute;
-    display: inline !important;
-    z-index: 1000;
+    display: none !important;
   }
 
   #socials-container {
@@ -461,11 +454,7 @@
   
   /* Ensure arrows are visible in all sections */
   section .arrow {
-    display: inline !important;
-    position: absolute;
-    right: 1rem;
-    bottom: 0.5rem;
-    z-index: 1000;
+    display: none !important;
   }
 
   article {
