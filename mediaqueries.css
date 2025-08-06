@@ -45,7 +45,19 @@
     display: none;
   }
   #hamburger-nav {
-    display: flex;
+    display: flex !important;
+    visibility: visible !important;
+  }
+  
+  .hamburger-icon {
+    display: flex !important;
+    visibility: visible !important;
+  }
+  
+  .hamburger-icon span {
+    background-color: #000000 !important;
+    height: 3px;
+    margin: 1px 0;
   }
   #experience, 
   .experience-details-container {
@@ -140,6 +152,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  #hamburger-nav {
+    display: flex !important;
+  }
   #contact,footer{
     height: 40vh;
   }
@@ -245,6 +260,36 @@
 }
 
 @media screen and (max-width: 480px) {
+  #desktop-nav {
+    display: none !important;
+  }
+  
+  #hamburger-nav {
+    display: flex !important;
+    visibility: visible !important;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .hamburger-icon {
+    display: flex !important;
+    visibility: visible !important;
+    width: 35px;
+    height: 30px;
+  }
+  
+  .hamburger-menu {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  .hamburger-icon span {
+    height: 4px;
+    background-color: #000000 !important;
+    margin: 2px 0;
+    border-radius: 1px;
+  }
+  
   section {
     padding: 1rem;
   }
