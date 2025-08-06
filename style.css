@@ -645,12 +645,34 @@ article.icon {
   padding: 0.5rem;
 }
 
-.contact-info-container{
+.contact-info-container {
+  background: var(--card-bg);
+  padding: 1.5rem 2rem;
+  border-radius: var(--border-radius);
+  border: var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  transition: var(--transition);
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
+  /* gap: 0.5rem; */
+}
+
+.contact-info-container:last-child {
+  padding-right: 2rem;
+}
+
+.contact-info-container:last-child .contact-icon {
+  margin-right: 0.5rem;
+}
+
+.contact-info-container:last-child p {
+  margin-left: 0.5rem;
+}
+.contact-icon{
+  padding-right: 1rem;
+}
+.linkedin-icon{
+  padding-right: 0.1rem;
 }
 
 .contact-info-container p{
