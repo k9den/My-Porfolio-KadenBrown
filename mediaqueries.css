@@ -50,16 +50,26 @@
   #experience, 
   .experience-details-container {
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   #profile, .section-container {
     display: block;
   }
   .arrow {
-    display: inline;
+    display: inline !important;
+    position: absolute;
+    right: 1rem;
+    bottom: 0.5rem;
+    z-index: 1000;
   }
   section, 
   .section-container {
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   section {
     margin: 0;
@@ -147,6 +157,9 @@
   }
   .about-containers, .contact-info-upper-container, .btn-container{
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
   .about-pic{
     height: 30vh;
@@ -214,6 +227,7 @@
     flex: 1 1 100%; 
     max-width: 90%; 
     min-width: 90%; 
+    margin: 0 auto;
   }
   
   .company-logos-container {
@@ -290,9 +304,12 @@
 
   .arrow {
     right: 1rem;
-    bottom: 1rem;
+    bottom: 0.5rem;
     width: 2.5rem;
     height: 2.5rem;
+    position: absolute;
+    display: inline !important;
+    z-index: 1000;
   }
 
   #socials-container {
@@ -377,6 +394,33 @@
   .article-container {
     grid-template-columns: 1fr;
     gap: 1rem;
+    justify-items: center;
+  }
+  
+  #Technical-Skills .experience-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #Technical-Skills .about-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  
+  /* Ensure arrows are visible in all sections */
+  section .arrow {
+    display: inline !important;
+    position: absolute;
+    right: 1rem;
+    bottom: 0.5rem;
+    z-index: 1000;
   }
 
   article {
@@ -420,6 +464,7 @@
     flex-direction: column;
     gap: 2rem;
     max-width: 100%;
+    align-items: center;
   }
 
   /* Professional Experience mobile layout */
@@ -429,12 +474,7 @@
   }
 
   #experience .section__pic-container {
-    order: 2;
     margin-bottom: 1rem;
-  }
-
-  #experience .about-details-container {
-    order: 1;
   }
 
   .company-logos-container {

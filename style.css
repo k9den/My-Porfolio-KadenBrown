@@ -320,8 +320,8 @@ section {
 
 .arrow, .uparrow{
   position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+  right: 2rem;
+  bottom: 1.5rem;
 }
 
 .details-container{
@@ -446,8 +446,7 @@ section {
   justify-content: center;
   gap: 2rem; 
   flex-direction: column;
-  justify-content: left;
-
+  align-items: center;
 }
 
 #professional-experience .experience-details-container {
@@ -512,6 +511,7 @@ article.icon {
 
 #projects {
   background-color: var(--background-light);
+  position: relative;
 }
 
 #projects .about-containers {
@@ -578,6 +578,10 @@ article.icon {
 }
 
 /* organizations section */
+
+#organizations {
+  position: relative;
+}
 
 .organization-logos-container {
   display: flex;
